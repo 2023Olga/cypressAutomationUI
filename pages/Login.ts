@@ -1,8 +1,8 @@
 class Login {
-userName: string = '#userName';
-password: string = '#password';
-loginButton: string ='#login';
-logOutButton: string = '#submit';
+    userName: string = '#userName';
+    password: string = '#password';
+    loginButton: string ='#login';
+    logOutButton: string = '#submit';
 
 submitButtonLogin() {
 

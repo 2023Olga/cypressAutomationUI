@@ -10,7 +10,7 @@ export default defineConfig({
        stage:'https://stage.pasv.us/course',
        prod:'https://coding.pasv.us/course',
        tekst:'Hello World!',
-       demoQA:'https://demoqa.com/',
+       demoQA:'https://demoqa.com',
        base:'https://uitestingplayground.com',
        test:'https://play1.automationcamp.ir/expected_conditions.html'
     }
