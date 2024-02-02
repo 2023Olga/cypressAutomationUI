@@ -14,4 +14,4 @@ describe('Login Page',() =>{
         LoginPage.submitButtonLogin()
         cy.contains('Log out')  
    })
-  })
+  }) 
