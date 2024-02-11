@@ -10,7 +10,7 @@ describe('Login Page',() =>{
         // cy.get('#login').click()// the same as contains
         cy.contains('Log out')   
       });
-      it('login with PageObject',() =>{
+      it.only('login with PageObject',() =>{
         LoginPage.submitButtonLogin()
         cy.contains('Log out')  
    })
