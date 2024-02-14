@@ -18,7 +18,13 @@ export default defineConfig({
       email: "poletkhv2013@gmail.com",
       password: "Alisa992",
       herokuapp:"https://the-internet.herokuapp.com"
-    }
+    },
+    viewportWidth: 1200,
+    viewportHeight: 1400,
   },
-  //defaultCommandTimeout: 16_000,
+  retries: {
+    runMode: 2,
+    openMode: 2,
+  },
+  defaultCommandTimeout: 16_000,
 });
