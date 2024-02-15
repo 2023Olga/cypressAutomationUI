@@ -34,7 +34,9 @@ jsConfirm(){
             cy.stub($win,"prompt").returns(text)//i'm waiting for
             cy.contains(this.buttonPromptText).click()
         })
-               cy.get(this.resultSelector).contains(text)
+              // cy.get(this.resultSelector).contains(text)
+              cy.window().its('prompt').should('be.called')
+              cy.get(this.resultSelector).should('include.text',text)
     }
     jsConfirmFalse(){
         cy.contains(this.buttonSelector,this.jsConfirmText).click()

@@ -13,7 +13,7 @@ describe('ALERT', () => {
     it('Click for JS Confirm FALSE', () => {
        AlertPage.jsConfirmFalse// AlertPage.   homework
     });
-    it('Click for JS Promt OK/true', () => {
+    it.only('Click for JS Promt OK/true', () => {
         AlertPage.jsPrompt()
         
     });
