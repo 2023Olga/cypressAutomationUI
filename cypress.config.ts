@@ -21,7 +21,8 @@ export default defineConfig({
       test: 'https://play1.automationcamp.ir/expected_conditions.html',
       email: "poletkhv2013@gmail.com",
       password: "Alisa992",
-      herokuapp: "https://the-internet.herokuapp.com"
+      herokuapp: "https://the-internet.herokuapp.com",
+      
     },
     viewportWidth: 1200,
     viewportHeight: 1400,
